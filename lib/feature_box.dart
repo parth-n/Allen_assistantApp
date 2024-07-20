@@ -14,12 +14,12 @@ class FeatureBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 25, vertical: 7),
+      margin: const EdgeInsets.symmetric(horizontal: 35, vertical: 10),
       decoration: BoxDecoration(
           color: color,
           borderRadius: const BorderRadius.all(Radius.circular(15))),
       child: Padding(
-        padding: const EdgeInsets.only(top: 10, left: 15, bottom: 12),
+        padding: const EdgeInsets.only(top: 20, left: 15, bottom: 20),
         child: Column(
           children: [
             Align(
@@ -34,7 +34,7 @@ class FeatureBox extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 2,
+              height: 3,
             ),
             Padding(
               padding: const EdgeInsets.only(right: 20.0),
